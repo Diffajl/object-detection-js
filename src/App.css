@@ -1,0 +1,65 @@
+body {
+  background-color: #212529;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #ffce47;
+}
+
+.webcam-container {
+  position: relative;
+  width: 100%;
+  max-width: 730px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.webcam-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-item {
+  margin-bottom: 10px;
+  color: white;
+}
+
+#videoSource {
+  transform: scaleX(-1);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
