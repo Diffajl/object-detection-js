@@ -1,8 +1,19 @@
-# React + Vite
+# Object Detection with React and TensorFlow.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project demonstrates how to perform object detection in the browser using **React**, **Vite**, **Tailwind CSS**, **React Webcam**, and **TensorFlow.js** with the **COCO-SSD** model. The application captures video from the user's webcam and performs real-time object detection, displaying bounding boxes and labels for detected objects.
 
-Currently, two official plugins are available:
+## Features
+- Real-time object detection using COCO-SSD model
+- User-friendly interface built with React
+- Modern styling with Tailwind CSS
+- Webcam integration using React Webcam
+- Fast development and build times with Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: JavaScript library for building user interfaces
+- **Vite**: Fast build tool and development server
+- **Tailwind CSS**: Utility-first CSS framework
+- **React Webcam**: Webcam component for React
+- **TensorFlow.js**: Library for machine learning in the browser
+- **COCO-SSD Model**: Pretrained object detection model for TensorFlow.js
